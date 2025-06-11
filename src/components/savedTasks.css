@@ -1,0 +1,68 @@
+.saved-tasks-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.task-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  word-wrap: break-word;           
+  overflow-wrap: break-word;       
+  word-break: break-word;         
+}
+
+.task-card * {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;            
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+}
+
+.activity-section {
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  word-break: break-word;
+}
+
+.activity-item {
+  margin-bottom: 10px;
+}
+
+.activity-item ul {
+  padding-left: 20px;
+}
+
+.activity-box {
+  margin-bottom: 10px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 8px;
+  word-break: break-word;
+}
+
+ul {
+  padding-left: 20px;
+  word-break: break-word;
+}
+
+ul li {
+  word-break: break-word;
+}
